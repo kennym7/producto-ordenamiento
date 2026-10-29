@@ -13,7 +13,6 @@ bool estaOrdenado(int a[], int n) {
 }
 
 int main(int argc, char* argv[]) {
-    // Uso: benchmark [repeticiones] [n_maximo] [archivo_csv] [commit_hash]
     int repeticiones = (argc > 1) ? stoi(argv[1]) : 30;
     int nMax         = (argc > 2) ? stoi(argv[2]) : 100000;
     string salida    = (argc > 3) ? argv[3] : "results/benchmark.csv";

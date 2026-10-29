@@ -1,5 +1,0 @@
-benchmark
-*.exe
-*.o
-.vs/
-.vscode/
